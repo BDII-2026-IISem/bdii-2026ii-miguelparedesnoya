@@ -1,0 +1,9 @@
+.env
+*.env
+data/
+ia-lab/
+*Zona.Identifier
+__pycache__/
+.pyc
+.vscode/
+
