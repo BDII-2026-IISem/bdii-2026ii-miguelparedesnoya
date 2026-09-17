@@ -7,7 +7,7 @@
 **Entorno:** WSL 2 + Ubuntu + Docker + Docker Compose  
 **Fecha:** Septiembre de 2026
 
-> **Nota:** Este informe se organiza siguiendo la guía del docente para la creación de cuatro motores de base de datos con Docker Compose: MySQL, PostgreSQL, MS SQL Server y Oracle XE, bajo `~/ia-lab/services/motores-bd/`.
+> **Nota:** Este informe se organiza siguiendo la guía del docente para la creación de cuatro motores de base de datos con Docker Compose: MySQL, PostgreSQL, MS SQL Server y Oracle XE, bajo `~/ia-lab-anterior/services/motores-bd/`.
 
 ---
 
@@ -73,7 +73,7 @@ Se trabajó desde Windows y posteriormente se ingresó al terminal de Ubuntu.
 La estructura general del proyecto quedó ubicada en:
 
 ```bash
-~/ia-lab/
+~/ia-lab-anterior/
 ```
 
 Dentro de esta carpeta se creó la estructura:
@@ -92,7 +92,7 @@ ia-lab/
 Además, se utilizó una carpeta para almacenar los datos persistentes:
 
 ```text
-~/ia-lab/data/
+~/ia-lab-anterior/data/
 ```
 
 ---
@@ -132,7 +132,7 @@ También se verificó que el usuario pudiera utilizar Docker sin tener que escri
 Para mantener organizado el laboratorio se creó una carpeta independiente para cada motor:
 
 ```bash
-cd ~/ia-lab/services/motores-bd
+cd ~/ia-lab-anterior/services/motores-bd
 ```
 
 La estructura utilizada fue:
@@ -217,7 +217,7 @@ services:
       - "3306:3306"
 
     volumes:
-      - ~/ia-lab/data/mysql:/var/lib/mysql
+      - ~/ia-lab-anterior/data/mysql:/var/lib/mysql
 
     networks:
       - ia-lab-network
@@ -236,7 +236,7 @@ networks:
 Para iniciar MySQL se ingresó a su carpeta:
 
 ```bash
-cd ~/ia-lab/services/motores-bd/mysql
+cd ~/ia-lab-anterior/services/motores-bd/mysql
 ```
 
 Luego se ejecutó:
@@ -304,7 +304,7 @@ Durante el proceso se presentó un problema con los archivos de datos de MySQL. 
 Se realizó una copia de seguridad del directorio de datos:
 
 ```text
-~/ia-lab/data/mysql-backup
+~/ia-lab-anterior/data/mysql-backup
 ```
 
 También se intentó realizar un proceso de recuperación utilizando un contenedor temporal, pero la recuperación no permitió iniciar correctamente el sistema de almacenamiento de InnoDB.
@@ -332,7 +332,7 @@ La configuración se realizó mediante Docker Compose.
 La carpeta correspondiente es:
 
 ```bash
-~/ia-lab/services/motores-bd/postgres
+~/ia-lab-anterior/services/motores-bd/postgres
 ```
 
 ---
@@ -366,7 +366,7 @@ services:
       - "5433:5432"
 
     volumes:
-      - ~/ia-lab/data/postgres:/var/lib/postgresql/data
+      - ~/ia-lab-anterior/data/postgres:/var/lib/postgresql/data
 
     networks:
       - ia-lab-network
@@ -383,7 +383,7 @@ networks:
 Desde la carpeta del servicio:
 
 ```bash
-cd ~/ia-lab/services/motores-bd/postgres
+cd ~/ia-lab-anterior/services/motores-bd/postgres
 ```
 
 Se puede iniciar el servicio mediante:
@@ -421,7 +421,7 @@ El contenedor se configuró para trabajar con SQL Server 2022.
 La carpeta correspondiente es:
 
 ```bash
-~/ia-lab/services/motores-bd/mssql
+~/ia-lab-anterior/services/motores-bd/mssql
 ```
 
 ---
@@ -454,7 +454,7 @@ services:
       - "1433:1433"
 
     volumes:
-      - ~/ia-lab/data/mssql:/var/opt/mssql
+      - ~/ia-lab-anterior/data/mssql:/var/opt/mssql
 
     networks:
       - ia-lab-network
@@ -471,7 +471,7 @@ networks:
 Se ingresa a la carpeta:
 
 ```bash
-cd ~/ia-lab/services/motores-bd/mssql
+cd ~/ia-lab-anterior/services/motores-bd/mssql
 ```
 
 Se inicia el servicio:
@@ -509,7 +509,7 @@ Esta imagen permite ejecutar Oracle Database Express Edition mediante Docker.
 La carpeta correspondiente es:
 
 ```bash
-~/ia-lab/services/motores-bd/oracle
+~/ia-lab-anterior/services/motores-bd/oracle
 ```
 
 ---
@@ -538,7 +538,7 @@ services:
       - "8080:8080"
 
     volumes:
-      - ~/ia-lab/data/oracle:/opt/oracle/oradata
+      - ~/ia-lab-anterior/data/oracle:/opt/oracle/oradata
 
     networks:
       - ia-lab-network
@@ -555,7 +555,7 @@ networks:
 Se ingresa a:
 
 ```bash
-cd ~/ia-lab/services/motores-bd/oracle
+cd ~/ia-lab-anterior/services/motores-bd/oracle
 ```
 
 Se inicia:
@@ -611,7 +611,7 @@ Una parte importante de la configuración fue utilizar volúmenes para que los d
 La estructura utilizada fue:
 
 ```text
-~/ia-lab/data/
+~/ia-lab-anterior/data/
 ├── mysql/
 ├── postgres/
 ├── mssql/
@@ -822,7 +822,7 @@ Las evidencias deben demostrar cada etapa solicitada en la guía del docente. Se
 Debe demostrarse la estructura:
 
 ```text
-~/ia-lab/
+~/ia-lab-anterior/
 ├── services/
 │   └── motores-bd/
 │       ├── mysql/
@@ -945,7 +945,7 @@ MySQL presentó errores relacionados con InnoDB después de reinicios y problema
 Antes de realizar cambios se creó una copia:
 
 ```text
-~/ia-lab/data/mysql-backup
+~/ia-lab-anterior/data/mysql-backup
 ```
 
 La recuperación mediante un contenedor temporal no permitió recuperar correctamente el sistema de almacenamiento.
