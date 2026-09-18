@@ -1,0 +1,101 @@
+id;nombre;descripcion;is_active;created_at;updated_at
+1;Valeria Paredes;Entusiasta de la poesia clasica y moderna;1;2025-07-07 02:06:00;2025-08-06 04:06:00
+2;Miguel Molina;Investigadora en biologia y ciencias ambientales;1;2025-03-27 03:21:00;2025-04-20 04:21:00
+3;Rodrigo Rodriguez;Profesor de literatura y ensayo hispanoamericano;0;2026-04-25 05:35:00;2026-05-08 10:35:00
+4;Valentina Lara;Lector frecuente de literatura clasica y narrativa contemporanea;1;2026-04-17 23:38:00;2026-05-11 04:38:00
+5;Andres Salazar;Profesor de literatura y ensayo hispanoamericano;1;2025-05-17 20:05:00;2025-06-12 02:05:00
+6;Natalia Castro;Estudiante universitario de ingenieria interesado en tecnologia y ciencias;0;2025-10-31 03:32:00;2025-11-15 15:32:00
+7;Luis Gomez;Miembro del club de lectura semanal de la biblioteca;1;2025-01-20 15:57:00;2025-02-09 15:57:00
+8;Maria Lara;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2025-12-27 21:58:00;2026-01-02 02:58:00
+9;Sofia Castro;Investigadora en biologia y ciencias ambientales;1;2026-05-08 15:55:00;2026-05-19 01:55:00
+10;Diego Vargas;Lector frecuente de literatura clasica y narrativa contemporanea;0;2025-09-08 12:04:00;2025-09-19 13:04:00
+11;Lucia Rojas;Entusiasta de la poesia clasica y moderna;1;2025-11-27 17:36:00;2025-12-23 18:36:00
+12;Fernando Herrera;Profesor de literatura y ensayo hispanoamericano;1;2025-10-02 12:49:00;2025-10-05 22:49:00
+13;Valentina Silva;Aficionado a las novelas de ciencia ficcion y fantastica;1;2025-06-24 16:12:00;2025-07-04 18:12:00
+14;Samuel Blanco;Investigador de historia regional y patrimonio cultural;1;2026-03-27 14:07:00;2026-04-21 21:07:00
+15;Gabriel Aguirre;Entusiasta de la poesia clasica y moderna;1;2025-06-24 00:40:00;2025-07-12 05:40:00
+16;Juan Espinosa;Docente de primaria apasionado por la literatura infantil;1;2026-02-12 15:28:00;2026-02-23 16:28:00
+17;Carolina Chavez;Miembro del club de lectura semanal de la biblioteca;1;2025-04-04 17:01:00;2025-04-20 19:01:00
+18;Miguel Vargas;Lector frecuente de literatura clasica y narrativa contemporanea;1;2025-02-04 21:19:00;2025-02-24 01:19:00
+19;Natalia Silva;Aficionado a las novelas de ciencia ficcion y fantastica;1;2025-09-16 18:52:00;2025-10-05 22:52:00
+20;Fernanda Cardenas;Lector frecuente de literatura clasica y narrativa contemporanea;1;2025-12-17 08:03:00;2026-01-01 13:03:00
+21;Nicolas Vargas;Profesor de literatura y ensayo hispanoamericano;0;2025-05-21 15:49:00;2025-06-13 01:49:00
+22;Gabriel Perez;Entusiasta de la poesia clasica y moderna;0;2025-12-20 11:19:00;2025-12-20 22:19:00
+23;Felipe Lopez;Miembro del club de lectura semanal de la biblioteca;0;2025-03-26 01:37:00;2025-04-10 10:37:00
+24;Valentina Morales;Estudiante universitario de ingenieria interesado en tecnologia y ciencias;1;2025-07-03 02:06:00;2025-07-19 02:06:00
+25;Maria Molina;Lector frecuente de literatura clasica y narrativa contemporanea;1;2025-12-16 23:10:00;2026-01-05 03:10:00
+26;Ximena Aguirre;Entusiasta de la poesia clasica y moderna;1;2025-01-16 04:59:00;2025-01-29 04:59:00
+27;Sebastian Medina;Miembro del club de lectura semanal de la biblioteca;1;2026-01-29 04:09:00;2026-02-06 11:09:00
+28;Diego Ortiz;Investigador de historia regional y patrimonio cultural;1;2025-07-02 17:53:00;2025-07-04 00:53:00
+29;Andres Acosta;Estudiante universitario de ingenieria interesado en tecnologia y ciencias;1;2025-06-16 17:19:00;2025-06-18 02:19:00
+30;Sebastian Navarro;Aficionado a las novelas de ciencia ficcion y fantastica;1;2025-02-26 11:10:00;2025-03-27 18:10:00
+31;Rodrigo Perez;Aficionado a las novelas de ciencia ficcion y fantastica;1;2025-02-11 01:31:00;2025-03-01 07:31:00
+32;Miguel Chavez;Entusiasta de la poesia clasica y moderna;1;2025-10-25 21:32:00;2025-11-18 23:32:00
+33;Laura Mendoza;Estudiante universitario de ingenieria interesado en tecnologia y ciencias;1;2025-11-15 11:27:00;2025-11-29 14:27:00
+34;Nicolas Gonzalez;Aficionado a las novelas de ciencia ficcion y fantastica;1;2026-04-27 11:47:00;2026-05-04 16:47:00
+35;Adriana Chavez;Entusiasta de la poesia clasica y moderna;1;2025-04-27 02:03:00;2025-05-14 09:03:00
+36;Samuel Espinosa;Lector frecuente de literatura clasica y narrativa contemporanea;1;2025-01-11 04:02:00;2025-01-26 16:02:00
+37;Gabriela Torres;Docente de primaria apasionado por la literatura infantil;1;2026-05-15 22:01:00;2026-06-12 09:01:00
+38;Natalia Paredes;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2025-11-28 14:57:00;2025-12-07 17:57:00
+39;Paula Lopez;Docente de primaria apasionado por la literatura infantil;1;2025-10-21 21:56:00;2025-10-29 21:56:00
+40;Rodrigo Chavez;Lector frecuente de literatura clasica y narrativa contemporanea;1;2025-05-02 23:57:00;2025-05-19 08:57:00
+41;Adrian Vargas;Aficionado a las novelas de ciencia ficcion y fantastica;1;2025-05-16 03:46:00;2025-05-29 11:46:00
+42;Mateo Vargas;Profesor de literatura y ensayo hispanoamericano;1;2025-08-29 04:27:00;2025-09-03 10:27:00
+43;Sofia Ramirez;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2025-10-05 01:52:00;2025-10-22 04:52:00
+44;Mateo Lara;Investigador de historia regional y patrimonio cultural;0;2025-10-10 20:49:00;2025-10-26 20:49:00
+45;Andres Vargas;Entusiasta de la poesia clasica y moderna;1;2026-05-12 23:25:00;2026-05-23 00:25:00
+46;Felipe Molina;Entusiasta de la poesia clasica y moderna;0;2025-03-23 23:08:00;2025-04-18 04:08:00
+47;Lucas Ruiz;Entusiasta de la poesia clasica y moderna;0;2025-11-11 09:11:00;2025-11-29 12:11:00
+48;Natalia Suarez;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2025-11-11 02:58:00;2025-12-03 05:58:00
+49;Andrea Suarez;Profesor de literatura y ensayo hispanoamericano;1;2025-06-22 02:08:00;2025-06-24 06:08:00
+50;Samuel Paredes;Miembro del club de lectura semanal de la biblioteca;1;2025-09-09 16:44:00;2025-09-16 04:44:00
+51;Ricardo Chavez;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;0;2025-02-12 00:59:00;2025-03-14 09:59:00
+52;Gabriel Suarez;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2026-03-24 14:13:00;2026-04-18 01:13:00
+53;David Medina;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2025-02-28 23:37:00;2025-03-01 08:37:00
+54;Javier Salazar;Estudiante universitario de ingenieria interesado en tecnologia y ciencias;1;2025-02-27 08:41:00;2025-03-21 19:41:00
+55;Andrea Ruiz;Lector frecuente de literatura clasica y narrativa contemporanea;1;2025-04-02 00:50:00;2025-04-12 04:50:00
+56;Lucia Castro;Miembro del club de lectura semanal de la biblioteca;0;2026-02-10 08:20:00;2026-02-21 10:20:00
+57;Mariana Lara;Profesor de literatura y ensayo hispanoamericano;1;2025-03-11 16:31:00;2025-04-03 02:31:00
+58;Carolina Perez;Investigador de historia regional y patrimonio cultural;0;2025-03-16 04:08:00;2025-04-03 11:08:00
+59;Miguel Sanchez;Investigadora en biologia y ciencias ambientales;1;2025-01-21 23:34:00;2025-02-19 03:34:00
+60;Felipe Castro;Investigadora en biologia y ciencias ambientales;1;2025-06-27 00:46:00;2025-07-08 00:46:00
+61;Mateo Herrera;Profesor de literatura y ensayo hispanoamericano;1;2025-03-14 17:22:00;2025-04-12 21:22:00
+62;Elena Medina;Aficionado a las novelas de ciencia ficcion y fantastica;1;2025-12-08 02:19:00;2025-12-30 13:19:00
+63;Lucia Alvarez;Investigador de historia regional y patrimonio cultural;1;2026-03-16 00:50:00;2026-03-20 00:50:00
+64;Diego Lopez;Docente de primaria apasionado por la literatura infantil;0;2026-02-17 21:32:00;2026-02-27 02:32:00
+65;Gabriel Gomez;Entusiasta de la poesia clasica y moderna;0;2025-05-28 11:06:00;2025-06-21 20:06:00
+66;Mariana Sanchez;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;0;2025-01-09 11:47:00;2025-02-04 16:47:00
+67;Luis Delgado;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;0;2025-01-22 04:52:00;2025-01-26 04:52:00
+68;Sofia Silva;Miembro del club de lectura semanal de la biblioteca;1;2025-09-26 05:54:00;2025-09-30 12:54:00
+69;Daniela Ramirez;Miembro del club de lectura semanal de la biblioteca;1;2026-05-14 02:10:00;2026-06-01 02:10:00
+70;Daniela Herrera;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;0;2025-05-04 19:40:00;2025-05-04 21:40:00
+71;Jimena Guerrero;Investigadora en biologia y ciencias ambientales;1;2025-12-31 09:34:00;2026-01-10 09:34:00
+72;Elena Vargas;Lector frecuente de literatura clasica y narrativa contemporanea;0;2025-07-16 05:33:00;2025-07-22 09:33:00
+73;Valeria Paredes;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2026-02-28 05:41:00;2026-03-12 17:41:00
+74;Santiago Paredes;Investigadora en biologia y ciencias ambientales;1;2025-11-18 22:24:00;2025-12-19 08:24:00
+75;Victoria Chavez;Investigador de historia regional y patrimonio cultural;1;2026-01-22 17:23:00;2026-02-17 00:23:00
+76;Luis Blanco;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;0;2026-01-07 04:04:00;2026-01-16 13:04:00
+77;Isabella Chavez;Estudiante universitario de ingenieria interesado en tecnologia y ciencias;1;2025-02-01 07:00:00;2025-02-15 07:00:00
+78;Carolina Chavez;Docente de primaria apasionado por la literatura infantil;0;2025-03-24 18:48:00;2025-03-27 20:48:00
+79;Diego Cardenas;Docente de primaria apasionado por la literatura infantil;0;2025-12-03 23:02:00;2025-12-22 05:02:00
+80;Juan Mendoza;Docente de primaria apasionado por la literatura infantil;1;2025-01-02 22:49:00;2025-01-11 09:49:00
+81;Camila Rodriguez;Entusiasta de la poesia clasica y moderna;1;2025-06-02 23:10:00;2025-06-23 00:10:00
+82;Maria Ramirez;Profesor de literatura y ensayo hispanoamericano;1;2025-07-13 13:15:00;2025-07-17 18:15:00
+83;Juan Guerrero;Aficionado a las novelas de ciencia ficcion y fantastica;1;2025-03-08 10:27:00;2025-03-26 18:27:00
+84;Isabella Medina;Estudiante universitario de ingenieria interesado en tecnologia y ciencias;0;2025-09-10 01:46:00;2025-10-02 11:46:00
+85;Jimena Aguirre;Aficionado a las novelas de ciencia ficcion y fantastica;1;2026-01-02 19:42:00;2026-01-03 01:42:00
+86;Juan Sanchez;Entusiasta de la poesia clasica y moderna;1;2025-09-13 23:38:00;2025-09-17 00:38:00
+87;Andrea Blanco;Investigadora en biologia y ciencias ambientales;1;2025-10-03 07:32:00;2025-10-09 08:32:00
+88;Diego Castro;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2025-05-12 15:36:00;2025-05-22 00:36:00
+89;Andrea Martinez;Entusiasta de la poesia clasica y moderna;1;2025-08-21 10:34:00;2025-09-09 14:34:00
+90;Ximena Reyes;Investigador de historia regional y patrimonio cultural;1;2026-02-19 22:29:00;2026-03-20 04:29:00
+91;Sara Medina;Investigadora en biologia y ciencias ambientales;1;2025-03-27 21:29:00;2025-04-06 04:29:00
+92;Camila Jimenez;Lector ocasional enfocado en libros de autoayuda y desarrollo personal;1;2025-07-20 13:04:00;2025-07-30 19:04:00
+93;Miguel Salazar;Lector frecuente de literatura clasica y narrativa contemporanea;1;2026-03-03 12:10:00;2026-03-06 23:10:00
+94;Sonia Guerrero;Aficionado a las novelas de ciencia ficcion y fantastica;1;2025-04-01 15:16:00;2025-04-06 15:16:00
+95;Laura Espinosa;Investigador de historia regional y patrimonio cultural;1;2025-07-09 01:05:00;2025-08-06 05:05:00
+96;Sonia Rodriguez;Entusiasta de la poesia clasica y moderna;1;2026-03-02 09:28:00;2026-03-18 20:28:00
+97;Maria Perez;Docente de primaria apasionado por la literatura infantil;0;2026-05-15 03:04:00;2026-06-03 03:04:00
+98;Camila Rios;Docente de primaria apasionado por la literatura infantil;1;2026-03-16 22:09:00;2026-04-06 02:09:00
+99;Maria Blanco;Profesor de literatura y ensayo hispanoamericano;1;2025-02-12 16:34:00;2025-03-01 02:34:00
+100;Victoria Ramirez;Entusiasta de la poesia clasica y moderna;1;2026-03-31 10:16:00;2026-04-21 20:16:00
